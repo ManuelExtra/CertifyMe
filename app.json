@@ -1,6 +1,0 @@
-{
-    "name": "https://github.com/thawalk/satoshi-certs",
-    "description": "Certificate generation and verification",
-    "repository": "https://github.com/thawalk/satoshi-certs",
-    "keywords": ["node", "express", "react", "ethereum"]
-}

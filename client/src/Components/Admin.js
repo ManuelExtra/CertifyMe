@@ -279,6 +279,9 @@ class Admin extends React.Component {
       Institution.abi,
       institutionData.address
     );
+
+    console.log(institutionData.address)
+    
     const convertToBlockChainStruct = [];
 
     this.state.instituteCourses.forEach((value, key) => {
@@ -463,7 +466,7 @@ class Admin extends React.Component {
               align="center"
               style={{ marginTop: "30px" }}
             >
-              You may add an institute into the Credentials Ethereum Blockchain
+              You may add an institute into the Credentials BNB Blockchain
               below
             </Typography>
           </>

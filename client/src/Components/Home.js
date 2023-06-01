@@ -60,7 +60,7 @@ function Home() {
               Verifiable Certificates
             </Box>
             <Box m={0.5} />
-            <Box style={{ fontSize: "60px", fontWeight: "900" }}>Certoshi</Box>
+            <Box style={{ fontSize: "60px", fontWeight: "900" }}>CertifyMe</Box>
             <Box m={1.5} />
             <Typography variant="body2">
               A Decentralized Certificate Issuance and Verification System to

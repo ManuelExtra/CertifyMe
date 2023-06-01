@@ -533,7 +533,7 @@ class GenerateCert extends React.Component {
         {networkError && (
           <Error
             message="You are not connected to the correct network on Ethereum"
-            label="Please try again once you have connected to the right network (Rinkeby testnet)"
+            label="Please try again once you have connected to the right network (binance smartchain testnet)"
             buttonText="Done"
           />
         )}
@@ -557,7 +557,7 @@ class GenerateCert extends React.Component {
                   style={{ marginTop: "30px" }}
                 >
                   You may create or revoke a certificate on the Credentials
-                  Ethereum Blockchain below
+                  BSC Blockchain below
                 </Typography>
                 <Paper className={classes.paper}>
                   <AppBar position="static" className={classes.appbar}>

@@ -161,7 +161,7 @@ class NavBarLanding extends React.Component {
               color="primary"
               noWrap
             >
-              Certoshi
+              CertifyMe
             </Typography>
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>

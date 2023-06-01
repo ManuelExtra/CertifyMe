@@ -7,9 +7,8 @@
   },
   "dependencies": {
     "scrypt": "github:barrysteyn/node-scrypt#fb60a8d3c158fe115a624b5ffa7480f3a24b03fb",
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^3.0.1",
-    "babel-loader": "^8.0.4",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
     "cross-env": "^7.0.3",
     "crypto-js": "^4.1.1",
     "prop-types": "^15.6.2",

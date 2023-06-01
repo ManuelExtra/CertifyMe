@@ -159,7 +159,7 @@ class NavBarSysAdmin extends React.Component {
               color="primary"
               noWrap
             >
-              Certoshi
+              CertifyMe
             </Typography>
             <div className={classes.generateCertificate}>
               <Typography

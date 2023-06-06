@@ -636,7 +636,7 @@ class GenerateCert extends React.Component {
                           <TextField
                             required
                             id="firstname"
-                            label="First Name"
+                            label="Full name"
                             className={classes.textField}
                             value={firstname}
                             onChange={this.handleChange("firstname")}
@@ -646,7 +646,8 @@ class GenerateCert extends React.Component {
                           <TextField
                             required
                             id="lastname"
-                            label="Last Name"
+                            label="Grade (e.g Distinction, 
+                              Uppercredit ... )"
                             className={classes.textField}
                             value={lastname}
                             onChange={this.handleChange("lastname")}

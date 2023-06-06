@@ -423,7 +423,7 @@ function Certificate({
               alignItems="flex-start"
             >
               <Grid item>
-                <DetailGroup label="Student Name" content={candidateName} />
+                <DetailGroup label="Student Name (Grade)" content={candidateName} />
               </Grid>
               <Grid item>
                 <VerificationStatus revoked={revoked} />

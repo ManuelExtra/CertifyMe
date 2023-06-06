@@ -408,7 +408,7 @@ class GenerateCert extends React.Component {
     });
     // this.setState({ currentState: "load" });
     const { firstname, lastname, courseIndex } = this.state;
-    let candidateName = `${firstname} ${lastname}`;
+    let candidateName = `${firstname} (${lastname})`;
     // let assignDate = new Date(assignedOn).getTime();
     console.log("Submit button clicked, below are current details:");
     const certId = uuidv4();

@@ -104,7 +104,7 @@ class NavBarSysAdmin extends React.Component {
           component={Link}
           to="/admin"
         >
-          Central Authority Portal
+          Admin Portal
         </MenuItem>
         <MenuItem
           style={{ justifyContent: "flex-end" }}
@@ -166,7 +166,7 @@ class NavBarSysAdmin extends React.Component {
                 // variant="h6"
                 noWrap
               >
-                Central Authority Credential Management Portal
+                Admin Management Portal
               </Typography>
             </div>
             <div className={classes.grow} />

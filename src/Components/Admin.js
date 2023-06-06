@@ -146,7 +146,7 @@ class Admin extends React.Component {
       //   "Non-Ethereum browser detected. You should consider trying MetaMask!"
       // );
       toast.warning(
-        "❕ Non-Ethereum browser detected. You should consider trying MetaMask!"
+        "❕ Non-Bnb browser detected. You should consider trying MetaMask!"
       );
       this.setState({
         renderLoading: false,
@@ -251,14 +251,14 @@ class Admin extends React.Component {
     console.log("Filling up form with pre-created institute");
     this.setState({
       instituteAddress: "",
-      instituteName: "Singapore University of Technology and Design",
-      instituteAcronym: "SUTD",
-      instituteWebsite: "https://www.sutd.edu.sg/",
+      instituteName: "Federal Polytechnic, Ilarp",
+      instituteAcronym: "FPI",
+      instituteWebsite: "https://www.federalpolyilaro.edu.ng/",
       instituteCourses: new Map([
-        [1, "Computer Science and Design"],
-        [2, "Engineering Product Development"],
-        [3, "Engineering Systems and Design"],
-        [3, "Architecture and Sustainable Design"],
+        [1, "Computer Science"],
+        [2, "Electrical/Electronic Engineering"],
+        [3, "Statistics"],
+        [4, "Food Technology"],
       ]),
     });
   }

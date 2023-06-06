@@ -53,7 +53,7 @@ function ViewCert() {
         align="center"
         style={{ marginTop: "30px" }}
       >
-        Welcome, Employers
+        Welcome,
       </Typography>
       <Typography
         variant="subtitle2"
@@ -62,7 +62,7 @@ function ViewCert() {
         style={{ marginTop: "30px" }}
       >
         You may key in the certificate id to view the Verified Certificate
-        created on the Credentials Ethereum Blockchain
+        created on the Credentials BNB Blockchain
       </Typography>
       <Grid
         container

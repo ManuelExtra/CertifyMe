@@ -65,7 +65,7 @@ function Home() {
             <Typography variant="body2">
               A Decentralized Certificate Issuance and Verification System to
               create certificates that are Immutable, Cryptographically Secured,
-              and have Zero Downtime. All powered by decentralized Ethereum
+              and have Zero Downtime. All powered by decentralized BNB
               Smart Contracts{" "}
             </Typography>
             <Box m={1.5} />

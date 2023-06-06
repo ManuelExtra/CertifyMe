@@ -106,7 +106,7 @@ class NavBarInstitute extends React.Component {
           component={Link}
           to="/admin"
         >
-          Central Authority Portal
+          Admin Portal
         </MenuItem>
         <MenuItem
           style={{ justifyContent: "flex-end" }}

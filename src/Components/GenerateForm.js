@@ -267,7 +267,7 @@ class GenerateForm extends React.Component {
                     color="inherit"
                     className={classes.submitBtn}
                   >
-                    Certificate genrated with id {certificateId}
+                    Certificate generated with id {certificateId}
                   </Typography>
                 )}
               </Grid>

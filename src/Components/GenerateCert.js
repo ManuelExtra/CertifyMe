@@ -233,7 +233,7 @@ class GenerateCert extends React.Component {
       //   "Non-Ethereum browser detected. You should consider trying MetaMask!"
       // );
       toast.warning(
-        "❕ Non-Ethereum browser detected. You should consider trying MetaMask!"
+        "❕ Non-BNB browser detected. You should consider trying MetaMask!"
       );
       this.setState({
         renderLoading: false,
@@ -523,8 +523,8 @@ class GenerateCert extends React.Component {
           <Loader text="Connecting..." />
         ) : renderMetaMaskError ? (
           <Error
-            message="You are not using an Ethereum-based browser"
-            label="You could download Metamask on this browser or use an another ethereum-based browser"
+            message="You are not using an BNB-based browser"
+            label="You could download Metamask on this browser or use an another bnb-based browser"
             buttonText="Done"
           />
         ) : (
@@ -532,7 +532,7 @@ class GenerateCert extends React.Component {
         )}
         {networkError && (
           <Error
-            message="You are not connected to the correct network on Ethereum"
+            message="You are not connected to the correct network on BNB"
             label="Please try again once you have connected to the right network (binance smartchain testnet)"
             buttonText="Done"
           />

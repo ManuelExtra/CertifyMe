@@ -103,7 +103,7 @@ function CertificateDisplay() {
     instituteLink: "",
     revoked: null,
     logo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/FOSSASIA_Logo.svg/600px-FOSSASIA_Logo.svg.png",
+      "https://applications.federalpolyilaro.edu.ng/Content/Images/school_logo.jpg",
   };
   const [certData, setCertData] = useState(certTemplate);
   const [loading, setLoading] = useState(true);

@@ -251,7 +251,7 @@ class Admin extends React.Component {
     console.log("Filling up form with pre-created institute");
     this.setState({
       instituteAddress: "",
-      instituteName: "Federal Polytechnic, Ilarp",
+      instituteName: "Federal Polytechnic, Ilaro",
       instituteAcronym: "FPI",
       instituteWebsite: "https://www.federalpolyilaro.edu.ng/",
       instituteCourses: new Map([
